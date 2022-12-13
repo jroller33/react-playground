@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-
 const displayEmojiName = event => alert(event.target.id);
 const emojis = [
   {
@@ -16,13 +15,12 @@ const emojis = [
     name: "woman dancing"
   }
 ];
-
 function App() {
   const greeting = "greeting";
   const displayAction = false;
   return(
     <div className="container">
-      <h1 id={greeting}>Hello, World</h1>
+      <h1 id={greeting}>Hello</h1>
       {displayAction && <p>I am writing JSX</p>}
       <ul>
         {
@@ -40,5 +38,4 @@ function App() {
     </div>
   )
 }
-
 export default App;
