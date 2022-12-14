@@ -1,3 +1,6 @@
+This is a sandbox for reactJS. Each branch has a different src folder, so if you run `npm start` and then switch between different branches, you can quickly switch between different react apps.
+
+
 <!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
