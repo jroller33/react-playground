@@ -1,6 +1,6 @@
 # ✨
 
-This is a sandbox for reactJS. Each branch has a different src folder, so if you run `npm start` and then switch between different branches, you can quickly switch between different react apps.
+This is a sandbox for reactJS. Each branch has a different src folder, so if you run `npm start` and then switch between different branches, you can quickly switch between different react apps in the same window.
 
 
 <!-- # Getting Started with Create React App
