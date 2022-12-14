@@ -1,10 +1,7 @@
 // add an `h1` heading tag
 function HelloDiv() {
   return (
-    "Hello"
-
-
-
+    <h1>Hello</h1>
   );
 }
 
