@@ -1,9 +1,10 @@
 import React from 'react';
 
+
+const name = "John";
+const thoughts = "react is ok";
+
 function JSXVariables() {
-  const name = "John";
-  const nameLength = name.length;
-  const thoughts = "react is ok";
 
 
   return (
@@ -11,7 +12,7 @@ function JSXVariables() {
       <div className="container">
         <div className="jumbotron">
           <h1>Hi! My name is {name}</h1>
-          <h2>My name has {nameLength} letters</h2>
+          <h2>My name has {name.length} letters</h2>
           <h2>I think React {thoughts}</h2>
         </div>
       </div>
