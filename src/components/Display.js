@@ -9,10 +9,10 @@ const canine = {
 
 // TODO: Write logic that will render a Card component for the dog
 // TODO: Pass `name`, `description`, and `id` to the Card component as props
-export default function Display() {
+export default function Display(canine) {
   return (
     <div>
-      
+      <Card name={canine.name} description={canine.description} id={canine.id} />
     </div>
   );
 }
